@@ -1,0 +1,116 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #f8fafc, #e4e7eb);
+            text-align: center;
+        }
+        header {
+            background-color: #4a4e69;
+            color: white;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .profile-pic {
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border: 5px solid #4a4e69;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 10px;
+        }
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin: 10px auto;
+            max-width: 600px;
+        }
+        .social-links {
+            margin-top: 30px;
+        }
+        .social-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4a4e69;
+            font-size: 1.4rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #0073e6;
+            transform: scale(1.1);
+        }
+        .projects-section {
+            margin: 50px auto;
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .projects-section h3 {
+            font-size: 1.8rem;
+            color: #4a4e69;
+            margin-bottom: 20px;
+        }
+        .projects-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects-section li {
+            margin-bottom: 15px;
+        }
+        .projects-section a {
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        .projects-section a:hover {
+            color: #005bb5;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #4a4e69;
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        
+nav {
+      margin: 0;
+      padding: 0.6rem 0;
+      text-align: right;
+      background-color: #f4edfd;
+    }
+    
+nav a {
+      color:#5c27a6 ;
+      text-decoration: none;
+      margin: 0.5rem;
+      
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    
+    
+.SignUp {
+    background-color: white;
+    color: #5c27a6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
